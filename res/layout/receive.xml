@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+              a:orientation="vertical"
+              a:layout_width="match_parent"
+              a:layout_height="match_parent">
+
+    <Button a:layout_width="match_parent"
+            a:layout_height="wrap_content"
+            a:id="@+id/button_record"
+            a:text="Record"/>
+
+    <TextView a:layout_width="match_parent"
+              a:layout_height="wrap_content"
+              a:id="@+id/textview_result"
+              a:text="Result"
+              a:textSize="30sp"/>
+
+    <CheckBox a:layout_width="match_parent"
+              a:layout_height="wrap_content"
+              a:id="@+id/checkbox_save_fft"
+              a:text="Save FFT"/>
+
+</LinearLayout>

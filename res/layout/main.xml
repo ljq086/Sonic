@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:a="http://schemas.android.com/apk/res/android"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:orientation="vertical">
+
+    <Button a:id="@+id/button_send"
+            a:layout_width="wrap_content"
+            a:layout_height="48dp"
+            a:layout_alignParentBottom="true"
+            a:layout_alignParentRight="true"/>
+
+    <ListView
+            a:id="@+id/list_messages"
+            a:layout_width="match_parent"
+            a:layout_height="match_parent"
+            a:layout_alignParentTop="true"
+            a:layout_above="@id/button_send">
+
+    </ListView>
+
+    <EditText
+            a:id="@+id/edittext_content"
+            a:layout_width="wrap_content"
+            a:layout_height="48dp"
+            a:layout_alignParentBottom="true"
+            a:layout_alignParentLeft="true"
+            a:layout_alignLeft="@id/button_send"
+            a:layout_toLeftOf="@id/button_send"
+            a:text="Hello Sonic!"
+            />
+
+
+</RelativeLayout>
